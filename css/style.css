@@ -117,6 +117,7 @@ img {
   height: 16px;
   fill: currentColor;
   margin-right: 10px;
+  align-items: baseline;
 }
 
 .logo {
@@ -166,6 +167,8 @@ img {
   color: var(--accent-color);
 }
 .site-nav-contact {
+  display: flex;
+  align-items: center;
   color: var(--tittle-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -285,6 +288,10 @@ img {
 
 /* END-FEATURES */
 
+.occupation-section {
+  padding-top: 0px;
+}
+
 .title {
   font-weight: bold;
   font-size: 36px;
@@ -333,8 +340,8 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
-  padding-top: 30px;
-  padding-bottom: 10px;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 .team-position {
   font-style: normal;
@@ -407,12 +414,12 @@ img {
   border: 1px solid var(--border-clients-color);
   border-radius: 4px;
   padding: 16px 32px;
+  fill: var(--border-clients-color);
 }
 
 .clients-icon {
   width: 106px;
   height: 60px;
-  fill: var(--border-clients-color);
 }
 
 .clients-list-item:not(:last-child) {
@@ -422,10 +429,6 @@ img {
 .clients-icon-link:hover,
 .clients-icon-link:focus {
   border-color: var(--accent-color);
-}
-
-.clients-icon:hover,
-.clients-icon:focus {
   fill: var(--accent-color);
 }
 
@@ -434,6 +437,8 @@ img {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+
+/* END-CLIENTS */
 
 /* SOCIAL */
 .footer-container {
@@ -527,7 +532,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--primary-with-color);
 }
-.address {
+.address-link {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
