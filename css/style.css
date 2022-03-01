@@ -147,6 +147,10 @@ img {
   padding-bottom: 32px;
 }
 
+.nav-list-links-item:not(last-child) {
+  margin-right: 50px;
+}
+
 .site-nav {
   font-style: normal;
   font-weight: 500;
@@ -154,7 +158,6 @@ img {
   line-height: 1.1;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
-  margin-right: 50px;
 }
 .current {
   color: var(--accent-color);
@@ -202,6 +205,10 @@ img {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-title {
@@ -353,12 +360,14 @@ img {
   color: var(--tittle-text-color);
   margin-bottom: 16px;
 }
+.team-social-links {
+  margin-bottom: 30px;
+}
 
 .team-social-links-item {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 30px;
 }
 
 .team-social-links-item:not(last-child) {
@@ -594,7 +603,7 @@ img {
   color: var(--primary-text-color);
   cursor: pointer;
   border: 0px;
-  border-radius: 3px;
+  border-radius: 4px;
   padding: 6px 22px;
 }
 .button-navigate:hover,
